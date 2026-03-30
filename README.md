@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/garv7n/AI-Fitness-Trainer">
-    <img src="app/src/main/res/drawable/media_pipe_banner.xml" alt="Logo" width="80" height="80">
+    <img src="app/src/main/res/drawable/media_pipe_banner.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">project_title</h3>
