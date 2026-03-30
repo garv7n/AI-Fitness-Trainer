@@ -94,7 +94,7 @@ Here's a blank template to get started. To avoid retyping too much info, do a se
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-<img src="ui.png" alt="Logo">
+<img src="ui.png" alt="Logo" text-align="center">
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
