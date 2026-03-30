@@ -96,7 +96,7 @@ Here's a blank template to get started. To avoid retyping too much info, do a se
 
 <img src="ui.png" alt="Logo" align="center">
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
