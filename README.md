@@ -37,7 +37,7 @@
 <h3 align="center">AI Fitness Trainer</h3>
 
   <p align="center">
-   This project involves the creation of an AI fitness trainer in the form of an Android app. This will involve the development of a machine-learning model while leveraging an existing human pose detection model such as Google’s Mediapipe Pose landmark detection or OpenPose. These models are used to map out the key points in the human body that correspond to major joints such as the head, shoulders, elbows, wrists, hips, knees, and ankles. The goal is to use these mapped points for tasks such as action recognition, animation, and in this case, exercise tracking.
+   AI fitness trainer in the form of an Android app, involving the creation of multiple machine-learning models while leveraging an existing human pose detection model - Google’s Mediapipe Pose landmark detection. These models are used to map out the key points in the human body that correspond to major joints such as the head, shoulders, elbows, wrists, hips, knees, and ankles. These mapped points are used for tasks such as action recognition, animation, and in this case, exercise tracking.
     <br />
     <a href="https://ai.google.dev/edge/mediapipe/solutions/vision/pose_landmarker"><strong>Explore the docs »</strong></a>
     <br />
