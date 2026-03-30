@@ -34,19 +34,16 @@
     <img src="app/src/main/res/drawable/media_pipe_banner.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">AI Fitness Trainer</h3>
 
   <p align="center">
-    project_description
+   This project involves the creation of an AI fitness trainer in the form of an Android app. This will involve the development of a machine-learning model while leveraging an existing human pose detection model such as Google’s Mediapipe Pose landmark detection or OpenPose. These models are used to map out the key points in the human body that correspond to major joints such as the head, shoulders, elbows, wrists, hips, knees, and ankles. The goal is to use these mapped points for tasks such as action recognition, animation, and in this case, exercise tracking.
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://ai.google.dev/edge/mediapipe/solutions/vision/pose_landmarker"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://media.heanet.ie/page/a32c8eb7cc8e46fba5db448df5f2e554">View Demo</a>
     &middot;
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    &middot;
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -95,11 +92,6 @@ Here's a blank template to get started. To avoid retyping too much info, do a se
 
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
