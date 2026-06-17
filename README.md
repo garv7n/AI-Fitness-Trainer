@@ -34,15 +34,12 @@
     <img text-align="center" src="app/src/main/res/drawable/media_pipe_banner.png" alt="Logo" width="130" height="130">
   </a>
 
-##AI Fitness Trainer
+## AI Fitness Trainer
 
   <p>
-   <code>AI Fitness Trainer</code>code> is an AI-powered app designed to assist in the prevention of injuries due to common faults during exercising. This app can critique incorrect form while carrying out squat and deadlift exercises. 
-    <br />
-    <a href="https://ai.google.dev/edge/mediapipe/solutions/vision/pose_landmarker"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://media.heanet.ie/page/a32c8eb7cc8e46fba5db448df5f2e554">View video demo</a>
+   <code>AI Fitness Trainer</code> is an AI-powered app designed to assist in the prevention of injuries due to common faults during exercising. This app can critique incorrect form while carrying out squat and deadlift exercises. 
+    
+  <a href="https://media.heanet.ie/page/a32c8eb7cc8e46fba5db448df5f2e554">View demo</a>
   </p>
 </div>
 
@@ -59,7 +56,8 @@
 
 <!-- GETTING STARTED -->
 ## Project Overview
-<p>Ai Fitness Trainer is powered by multiple machine-learning classifiers while leveraging an existing human pose detection model - <a href="https://ai.google.dev/edge/mediapipe/solutions/vision/pose_landmarker">Google’s Mediapipe Pose landmark detection</a>. This pose detection model is used to map out the key points in the human body that correspond to major joints such as the head, shoulders, elbows, wrists, hips, knees, and ankles. These mapped points are used for tasks such as action recognition, animation, and in this case, exercise tracking.</p>
+<p>AI Fitness Trainer is powered by multiple machine-learning classifiers while leveraging an existing human pose detection model <a href="https://ai.google.dev/edge/mediapipe/solutions/vision/pose_landmarker">Mediapipe Pose landmark detection</a>. This pose detection model is used to map out the key points in the human body that correspond to major joints such as the head, shoulders, elbows, wrists, hips, knees, and ankles. These mapped points are used for tasks such as action recognition, animation, and in this case, exercise tracking. </p>
+<p>The project was written in raw Kotlin and built for an Android environment. The custom machine learning models are outlined in a seperate repository <a href="">here</a>. They were added to the app within Android Studio.
 
 
 
