@@ -31,13 +31,13 @@
 <br />
 <div>
   <a href="https://github.com/garv7n/AI-Fitness-Trainer">
-    <img src="app/src/main/res/drawable/media_pipe_banner.png" alt="Logo" width="130" height="130">
+    <img text-align="center" src="app/src/main/res/drawable/media_pipe_banner.png" alt="Logo" width="130" height="130">
   </a>
 
 <h3 align="center">AI Fitness Trainer</h3>
 
   <p>
-   <code>AI Fitness Trainer<code> is an AI-powered app designed to assist in the prevention of injuries due to common faults during exercising. This app can critique incorrect form while carrying out squat and deadlift exercises. 
+   <code>AI Fitness Trainer</code>code> is an AI-powered app designed to assist in the prevention of injuries due to common faults during exercising. This app can critique incorrect form while carrying out squat and deadlift exercises. 
     <br />
     <a href="https://ai.google.dev/edge/mediapipe/solutions/vision/pose_landmarker"><strong>Explore the docs »</strong></a>
     <br />
