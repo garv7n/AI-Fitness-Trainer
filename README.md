@@ -29,46 +29,22 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
+<div>
   <a href="https://github.com/garv7n/AI-Fitness-Trainer">
-    <img src="app/src/main/res/drawable/media_pipe_banner.png" alt="Logo" width="80" height="80">
+    <img src="app/src/main/res/drawable/media_pipe_banner.png" alt="Logo" width="130" height="130">
   </a>
 
 <h3 align="center">AI Fitness Trainer</h3>
 
-  <p align="center">
-   AI fitness trainer in the form of an Android app, involving the creation of multiple machine-learning models while leveraging an existing human pose detection model - Google’s Mediapipe Pose landmark detection. These models are used to map out the key points in the human body that correspond to major joints such as the head, shoulders, elbows, wrists, hips, knees, and ankles. These mapped points are used for tasks such as action recognition, animation, and in this case, exercise tracking.
+  <p>
+   <code>AI Fitness Trainer<code> is an AI-powered app designed to assist in the prevention of injuries due to common faults during exercising. This app can critique incorrect form while carrying out squat and deadlift exercises. 
     <br />
     <a href="https://ai.google.dev/edge/mediapipe/solutions/vision/pose_landmarker"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://media.heanet.ie/page/a32c8eb7cc8e46fba5db448df5f2e554">View Demo</a>
-    &middot;
+    <a href="https://media.heanet.ie/page/a32c8eb7cc8e46fba5db448df5f2e554">View video demo</a>
   </p>
 </div>
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-  </ol>
-</details>
-
-
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ### Built With
@@ -77,17 +53,18 @@
 * [![React][React.js]][React-url]
 * [![JQuery][JQuery.com]][JQuery-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Project Overview
+<p>Ai Fitness Trainer is powered by multiple machine-learning classifiers while leveraging an existing human pose detection model - <a href="https://ai.google.dev/edge/mediapipe/solutions/vision/pose_landmarker">Google’s Mediapipe Pose landmark detection</a>. This pose detection model is used to map out the key points in the human body that correspond to major joints such as the head, shoulders, elbows, wrists, hips, knees, and ankles. These mapped points are used for tasks such as action recognition, animation, and in this case, exercise tracking.</p>
 
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Screenshots
 
 <img src="ui.png" alt="Logo" align="center">
 
