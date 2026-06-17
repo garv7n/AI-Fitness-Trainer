@@ -34,7 +34,7 @@
     <img text-align="center" src="app/src/main/res/drawable/media_pipe_banner.png" alt="Logo" width="130" height="130">
   </a>
 
-<h3 align="center">AI Fitness Trainer</h3>
+##AI Fitness Trainer
 
   <p>
    <code>AI Fitness Trainer</code>code> is an AI-powered app designed to assist in the prevention of injuries due to common faults during exercising. This app can critique incorrect form while carrying out squat and deadlift exercises. 
@@ -47,7 +47,7 @@
 </div>
 
 
-### Built With
+## Built With
 
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
