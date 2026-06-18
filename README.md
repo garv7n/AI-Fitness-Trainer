@@ -37,27 +37,25 @@
 ## AI Fitness Trainer
 
   <p>
-   <code>AI Fitness Trainer</code> is an AI-powered app designed to assist in the prevention of injuries due to common faults during exercising. This app can critique incorrect form while carrying out squat and deadlift exercises. 
+   <code>AI Fitness Trainer</code> is an AI-powered app designed to assist in the prevention of injuries due to common faults during exercising. This app can critique incorrect form while carrying out squat and deadlift exercises.  <a href="https://media.heanet.ie/page/a32c8eb7cc8e46fba5db448df5f2e554">Here</a> is a demo where the idea of the application is explained.
     
-  <a href="https://media.heanet.ie/page/a32c8eb7cc8e46fba5db448df5f2e554">View demo</a>
+ 
   </p>
 </div>
 
 
 ## Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-
+* [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
+* [![Kotlin](https://img.shields.io/badge/Kotlin-%237F52FF.svg?logo=kotlin&logoColor=white)](#)
+* [![Jupyter](https://img.shields.io/badge/Jupyter-ffffff?logo=Jupyter)](#)
 
 
 
 <!-- GETTING STARTED -->
 ## Project Overview
-<p>AI Fitness Trainer is powered by multiple machine-learning classifiers while leveraging an existing human pose detection model <a href="https://ai.google.dev/edge/mediapipe/solutions/vision/pose_landmarker">Mediapipe Pose landmark detection</a>. This pose detection model is used to map out the key points in the human body that correspond to major joints such as the head, shoulders, elbows, wrists, hips, knees, and ankles. These mapped points are used for tasks such as action recognition, animation, and in this case, exercise tracking. </p>
-<p>The project was written in raw Kotlin and built for an Android environment. The custom machine learning models are outlined in a seperate repository <a href="">here</a>. They were added to the app within Android Studio.
+<p>AI Fitness Trainer is powered by multiple machine-learning classifiers while leveraging an existing human pose detection model <a href="https://ai.google.dev/edge/mediapipe/solutions/vision/pose_landmarker">Mediapipe Pose Landmarker</a>. This CNN is used to map out the key points in the human body that correspond to major joints like elbows, hips and knees. These mapped points are coordinate pixel values and are used in conjuction with trigonometric functions, to predict and track certain exercises. </p>
+<p>The project was written in raw Kotlin and built for an Android environment. The custom machine learning models are outlined in a seperate repository <a href="">here</a>. They were imported to the project within Android Studio.
 
 
 
@@ -67,8 +65,10 @@
 <img src="ui.png" alt="Logo" align="center">
 
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Technical Details
+* <p><b>Framework: </b>The application was developed in a raw Kotlin environment, as there was difficulty incorporating MediaPipe into a framework like React Native.</p>
+* <p><b>Machine Learning: </b>3 binary classifiers are employed for the recognition of incorrect vs correct form across multiple disciplines. These models were trained on 100s of minutes of video taken from powerlifting competitions.
+* <p><b>Inference: </b>As Mediapipe Pose Landmarker is based on the relatively light-weight BlazePose model, this application functions entirely on-device. Local execution removes any internet restrictions and keeps the user's camera footage private and secure.
 
 
 
@@ -91,6 +91,7 @@
 [product-screenshot]: images/screenshot.png
 <!-- Shields.io badges. You can a comprehensive list with many more badges at: https://github.com/inttter/md-badges -->
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Kotlin]: https://img.shields.io/badge/Kotlin-%237F52FF.svg?logo=kotlin&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
